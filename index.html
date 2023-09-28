@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Weather App</h1>
+
+    <div class="main">
+
+        <div class="container">
+            <label class="switch">
+                <input type="checkbox" id="check">
+                <span class="slider round"></span>
+            </label>
+            <div class="inputbox">
+                <input id="value" type="text" placeholder="Enter the City,State or ..." class="input">
+                <div class="tooltip">
+                    <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                    <span class="tooltiptext">Search</span>
+                </div>
+            </div>
+            <div id="info">
+                <p id="location_name"></p>
+                <img id="logo" src=''>
+                <p id="text"></p>
+                <div class="temp tooltip">
+                    <i class="" id="img1"></i>
+                    <span class="tooltiptext">Temperature</span>
+                    <p id="temp"></p>
+                </div>
+                <div class="him_wind">
+                    <div class="tooltip">
+                        <i class="" id="img2"></i>
+                        <span class="tooltiptext">humidity</span>
+                        <p id="humidity"></p>
+                    </div>
+                    <div class="tooltip">
+                        <i class="" id="img3"></i>
+                        <span class="tooltiptext">wind</span>
+                        <p id="windspeed"></p>
+                    </div>
+                </div>
+                <div class="tooltip">
+                    <span class="tooltiptext">date</span>
+                    <p id="date" class="date"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/6013503cc9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
